@@ -9,5 +9,6 @@ final class SulfurasStoreItemImpl implements UpdateStoreItem {
     @Override
     public void update(Item item) {
         item.quality = MAX_QUALITY;
+        item.sellIn = 0;
     }
 }
